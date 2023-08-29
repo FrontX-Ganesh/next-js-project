@@ -6,8 +6,8 @@ const Login = () => {
   const router = useRouter()
   return (
     <>
-        <div>Login</div>
-        <button onClick={ () => router.push("/about")}>Go to about page</button>
+        <div>Login</div><br />
+        <button onClick={() => router.push("/login/user-login")}>Go to User Login page</button>
     </>
   )
 }

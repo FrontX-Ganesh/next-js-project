@@ -1,8 +1,12 @@
+import Link from 'next/link'
 import React from 'react'
 
 const UserLogin = () => {
   return (
-    <div>UserLogin</div>
+    <>
+      <div>User Login</div><br />
+      <Link href="/userList"> Go to User page</Link>
+    </>
   )
 }
 
