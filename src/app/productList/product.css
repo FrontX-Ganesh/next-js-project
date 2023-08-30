@@ -1,0 +1,16 @@
+h1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-product{
+    min-width: 33.33%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.single-product{
+    width: 30%;
+    padding: 15px;
+    /* color: #ffffff; */
+}
